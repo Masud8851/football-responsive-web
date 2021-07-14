@@ -248,7 +248,8 @@ footer{
 }
 
 .social-icon a{
-    background-color: #084121;
+    /* background-color: #084121; */
+    background-image: linear-gradient(yellow, blue);
     font-size: 22px;
     width: 45px;
     height: 45px;
