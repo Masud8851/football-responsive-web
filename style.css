@@ -388,15 +388,95 @@ footer{
 
 /* Tablet Devices */
 @media only screen and (min-width:481px) and (max-width: 768px) {
-    .container{
-        width: 100%;
-        margin-left: 0%;
-    }
-    .top-players{
-        background-color: springgreen;
+    .nav-bar {
+        margin-left: 0px;
+        display: grid;
         grid-template-columns: repeat(2,1fr);
-        column-gap: 10px;
-        
+       align-items: center;
+    }
+
+    nav {
+        height: 44px;
+        line-height: 50%;
+    }
+
+    .nav-bar>a {
+        display: absolute;
+        margin-left: 30px;
+        width: 70px;
+        background-color: #E02C6D;
+        padding: 3px;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 67px;
+        flex-direction: column;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 67px;
+        flex-direction: column;
+    }
+
+    .ball {
+        width: 160px;
+        height: 160px;
+        background-image: linear-gradient(yellow, blue);
+        border-radius: 100px;
+        position: relative;
+        bottom: -170px;
+        left: -245px;
+        transition: transform 0.1s ease-in 0.3s;
+    }
+
+    .top-players {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 40px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .article-two, .news {
+        margin-top: 165px;
+        margin-bottom: 158px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        list-style-type: none;
+        column-gap: 30px;
+        row-gap: 30px;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
     
+    .video {
+        margin-top: 10px;
+        margin-left: -130px;
+        width: 700px;
+        margin-right: 0px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+    }
+
+    .video-decoration{
+        align-items: center;
+    }
+
+    .footer{
+        display: block;
+        align-items: center;
+        margin-left: -300px;
+    }
 }
