@@ -292,7 +292,7 @@ footer{
     .top-players, .article-two, .media, .video-decoration, .footer{
         background-color: springgreen;
         margin-top: 70px;
-        margin-left: 180px;
+        /* margin-left: 180px; */
         margin-right: 210px;
         display: flex;
         grid-template-columns: repeat(3,1fr);
