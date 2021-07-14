@@ -113,8 +113,8 @@ span{
 }
 
 
-/* Article 1 */
-.article-one{
+/* Top Players */
+.top-players{
     margin-top: 70px;
     margin-left: 180px;
     margin-right: 210px;
@@ -284,13 +284,13 @@ footer{
 /*_____________________________________________*/
 
 /* Mobile Devices */
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 480px) {
     .container{
         width: 100%;
         margin-left: 0%;
     }
-    .article-one, .article-two, .media, .video-decoration, .footer{
-        
+    .top-players, .article-two, .media, .video-decoration, .footer{
+        background-color: springgreen;
         margin-top: 70px;
         margin-left: 180px;
         margin-right: 210px;
@@ -357,7 +357,7 @@ footer{
         width: 100%;
         margin-left: 0%;
     }
-    .article-one{
+    .top-players{
         background-color: springgreen;
         grid-template-columns: repeat(2,1fr);
         column-gap: 10px;
