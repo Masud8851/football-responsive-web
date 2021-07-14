@@ -237,18 +237,12 @@ footer{
 }
 
 .social-icon{
-    /* background-color: seagreen; */
     width: 100%;
-    /* margin: 0 auto; */
     text-align: center;
-    /* padding: 40px;
-    padding-bottom: 0px; */
     border-top: 1px solid #eee;
-    /* margin-top: 50px; */
 }
 
 .social-icon a{
-    /* background-color: #084121; */
     background-image: linear-gradient(yellow, blue);
     font-size: 22px;
     width: 45px;
@@ -271,7 +265,6 @@ footer{
 
   .copyright{
     text-align: center;
-    
     font-weight: 500;
     opacity: 0.8;
     font-size: 16px;
